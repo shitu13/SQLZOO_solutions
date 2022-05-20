@@ -1,4 +1,4 @@
-//SELECT basics
+//SELECT_basics
 
 1. Introducing the world table of countries
 
