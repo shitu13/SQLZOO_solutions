@@ -30,9 +30,11 @@ SELECT name, area FROM world
 ```
 
 ## SELECT from WORLD
-
-
-
+1. Find the country that start with Y
+```sql
+SELECT name FROM world
+  WHERE name LIKE 'Y%'
+```
 
 ## SELECT from NOBEL
 ## SELECT in SELECT
