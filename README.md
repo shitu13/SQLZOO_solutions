@@ -35,6 +35,11 @@ SELECT name, area FROM world
 SELECT name FROM world
   WHERE name LIKE 'Y%'
 ```
+2. Find the countries that end with y
+```sql
+SELECT name FROM world
+  WHERE name LIKE '%y'
+```
 
 ## SELECT from NOBEL
 ## SELECT in SELECT
