@@ -1,7 +1,7 @@
 # SQLZOO Solutions
 
 ## Sections:
-1. [SELECT basics](#select-basics)
+1. [SELECT basics](https://github.com/shitu13/SQLZOO_solutions/blob/main/SELECT-from-NOBEL.sql)
 2. [SELECT from WORLD](#select-from-world)
 3. [SELECT from NOBEL](#select-from-nobel)
 4. [SELECT in SELECT](#select-in-select)
