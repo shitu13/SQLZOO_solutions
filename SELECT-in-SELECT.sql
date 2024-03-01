@@ -21,9 +21,9 @@ WHERE name IN ('Argentina', 'Australia'))
 
 -- 4. Which country has a population that is more than United Kingdom but less than Germany? Show the name and the population.
 
-Select name, population from world 
-where population>(select population from world where name = 'United Kingdom') 
-And Population< (select population from world where name = 'Germany') 
+SELECT name, population FROM world 
+WHERE population>(SELECT population FROM world WHERE name = 'United Kingdom') 
+AND Population< (SELECT population FROM world WHERE name = 'Germany') 
 
 -- 5. Show the name and the population of each country in Europe. Show the population as a percentage of the population of Germany.
 
@@ -32,8 +32,8 @@ FROM world WHERE continent = 'Europe'
 
 -- 6. Which countries have a GDP greater than every country in Europe?
 
-SElect name from world 
-Where gdp> ALL(Select GDP from world where continent = 'Europe')
+SELECT name FROM world 
+WHERE gdp> ALL(SELECT GDP FROM world WHERE continent = 'Europe')
 
 -- 7. Find the largest country (by area) in each continent, show the continent, the name and the area:
 SELECT continent, name, area FROM world x
